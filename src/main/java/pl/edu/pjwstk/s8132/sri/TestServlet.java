@@ -12,4 +12,11 @@ public class TestServlet {
     public String test(){
         return "Hello world";
     }
+
+    @GET
+    @Path("/json")
+    @Produces("application/json")
+    public String getJson(){
+        return "{\"A\":2}";
+    }
 }
