@@ -1,2 +1,3 @@
 # SRI_JAX_RS
-fasd
+
+JAX-RS example - without installing additional application server - only Java and Maven :)
